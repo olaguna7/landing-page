@@ -8,9 +8,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header, footer {
+    background-color: #1F2937;
+}
+
 header {
     padding: 24px 200px;
-    background-color: #1F2937;
 }
 
 .container-head-top {
@@ -197,4 +200,12 @@ header {
     color: #3882F6;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 48px;
 }
