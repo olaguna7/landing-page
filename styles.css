@@ -83,6 +83,11 @@ header {
     align-self: center;
 }
 
+.header-button:hover {
+    background-color: #2563EB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .main-info {
     display: flex;
     flex-direction: column;
@@ -113,15 +118,83 @@ header {
     text-align: center;
     gap: 24px;
     border-radius: 8px;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     padding: 32px;
 }
 
 .placeholder-img-box {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 8px solid #1F2937;
     border-radius: 8px;
 }
 
+.info-text {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.main-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+    gap: 12px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    align-self: end;
+}
+
+.main-cta {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 300px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    height: 200px;
+}
+
+.cta-title {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.cta-text {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
