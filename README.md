@@ -11,3 +11,5 @@ Skills worked in this project:
     - Flexbox
     - Hover animations
     - Basic CSS properties
+
+URL for preview: https://olaguna7.github.io/landing-page/
